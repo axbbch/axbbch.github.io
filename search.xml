@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2022/12/25/hello-world/"/>
+      <url>/2022/12/25/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start">Quick Start</h2><h3 id="Create-a-new-post">Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server">Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files">Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites">Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>VAB刷入TWRP</title>
+      <link href="/2022/12/21/VAB%E5%88%B7%E5%85%A5TWRP/"/>
+      <url>/2022/12/21/VAB%E5%88%B7%E5%85%A5TWRP/</url>
+      
+        <content type="html"><![CDATA[<p>#VAB分区机型刷入TWRP<br>大家好我是三岁，最近洋洋得意了有点难受所以迟更了，不多说直接教程<br>小米红米安卓11 12 13的机型分区产生了一些变化取消了Recovery 分区恢复模式被合并到了BOOT分区<br>如何区分你的机型是否VAB分区见图（上个教程只适用于有Recovery 分区的设备，对于无Recovery 分区的设备禁止刷入若刷入可能会导致设备卡米卡Fastboot无限重启，当然也是有解决方法的后续会出教程）<br>![](1 3.jpg)<br>![](1 6.jpg)<br>禁止将TWRP刷入BOOT分区，刷入会导致设备卡米卡Fastboot无限重启，当然也是有解决方法的后续会出相关教程<br>##刷入TWRP<br>打开命令行输入以下命令临时启动TWRP<br>xxxx.img为你的TWRP文件</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">fastboot boot xxxx.img</span><br><span class="line"></span><br></pre></td></tr></table></figure><p>TWRP这里推荐Skkk-TWRP</p><a class="btn-beautify " href="https://www.123pan.com/s/Id6rVv-zoKm3"   title="下载skkk-twrp"><i class="fas fa-download"></i><span>下载skkk-twrp</span></a><p>随后手机进入如下界面<br>点击“高级”<br>![](1 4.jpg)<br>找到“刷入当前的TWRP”<br>![](1 1.jpg)<br>向右滑动安装<br>![](1 2.jpg)<br>安装完成后回到主界面点击“重启”然后选择重启Recovery 即可正常使用<br>![](1 5.jpg)</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>如何刷入Twrp</title>
+      <link href="/2022/12/13/%E5%A6%82%E4%BD%95%E5%88%B7%E5%85%A5TWRP/"/>
+      <url>/2022/12/13/%E5%A6%82%E4%BD%95%E5%88%B7%E5%85%A5TWRP/</url>
+      
+        <content type="html"><![CDATA[<p>#如何刷入第三方TWRP<br>警告：本教程只适用于带有单独Recovery分区的机型，如果你没有请看下一篇教程<br>手机链接电脑并且进入fastboot （关机或开机状态下同时按住电源➕音量减直至出现“fastboot”）<br>使用 ADB命令刷入（个人推荐简单快捷）</p><a class="btn-beautify " href="https://www.123pan.com/s/sYyRVv-LvGa"   title="下载ADB"><i class="fas fa-download"></i><span>下载ADB</span></a><p>解压打开输入以下命令</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">fastboot flash recovery xxxxx.img</span><br></pre></td></tr></table></figure><p>注意“xxxxx.img”是你自己下载的twrp 文件，将其拖入命令行窗口替换掉“xxxxx.img”敲回车即可（注：rec的后缀格式一定是.img）<br>届时手机<br>会自动重启至 Twrp<br>若末重启输入</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">fastboot reboot recovery</span><br></pre></td></tr></table></figure><p>回车即可效果如下<br><img src="1.jpg" alt=""><br><img src="2.jpg" alt=""><br><img src="3.jpg" alt=""></p><p>此教程理论上适用于所有已经解锁BL的安卓设备，每个品牌进入“fastboot”模式的方式都各有不同详细请查阅对应机型资料</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>如何解锁BL锁（小米）</title>
+      <link href="/2022/12/03/%E5%A6%82%E4%BD%95%E8%A7%A3%E9%94%81BL%E9%94%81%EF%BC%88%E5%B0%8F%E7%B1%B3%EF%BC%89/"/>
+      <url>/2022/12/03/%E5%A6%82%E4%BD%95%E8%A7%A3%E9%94%81BL%E9%94%81%EF%BC%88%E5%B0%8F%E7%B1%B3%EF%BC%89/</url>
+      
+        <content type="html"><![CDATA[<h1>如何解除小米BootLoader锁</h1><p>为什么要解锁BL?为什么要Root?解锁后可以刷入第三方ROM包（比如小米刷iQOO的Orange OS操作系统）刷入面具也就是ROOT权限，然后就可以修改系统内容，以及一些实用的模块来优化你的安卓设备，使其实现本身不具备的功能<br>下面开始教程</p><ol><li>进去开发者模式查看解锁状态并绑定账号（账号绑定手机以后等待168小时，千万不要点第二次！否则会重新计时）<br><img src="2.jpg" alt=""><br>经过了168小时的等待，就可以用电脑给手机解bl锁了（如果绑定后没有等待168小时可能会出现以下界面，一般显示168我的已经过去了36小时所以是132）<br><img src="3.jpg" alt=""></li><li>首先在电脑上打开解锁工具，可以去官网下载</li></ol><a class="btn-beautify " href="http://www.miui.com/unlock/download.html"   title="直达官网"><i class="fas fa-download"></i><span>直达官网</span></a><ol start="3"><li>解压下载的文件，打开解锁工具<br><img src="4.jpg" alt=""><br>（miflash_unlock.exe），同意协议，登陆小米账号（必须是自己手机绑定的小米账号）<br>安装驱动（必须安装否则无法识别手机）<br><img src="5.jpg" alt=""></li><li>手机关机，然后同时按住“音量下键”和“电源键”进入fastboot模式，用数据线连接电脑</li></ol><p>线刷工具提示“已连接手机”<br>点击“解锁”<br>然后会弹出以下界面<br><img src="7.jpg" alt=""><br>点击“确认解锁”<br>然后会弹出以下界面<br><img src="8.jpg" alt=""><br>点击“确认解锁”<br>等到进度跑完并弹出以下界面则表示解锁成功<br><img src="9.jpg" alt=""><br>5. 此时，手机会重启，并会清楚所有数据，并且解除bl锁成功</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
