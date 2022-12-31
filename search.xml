@@ -12,6 +12,12 @@
       
       
       
+        <tags>
+            
+            <tag> 生活 </tag>
+            
+        </tags>
+      
     </entry>
     
     
@@ -24,6 +30,12 @@
         <content type="html"><![CDATA[<h1>如何使用miflash刷机工具</h1><h2 id="什么是mifflash？">什么是mifflash？</h2><p>1 如果你不小心把小米手机变砖了，那么你可以利用这个miflash工具，让设备起死回生。它还可以在小米手机上更新测试版和稳定版的MIUI ROM。<br>2 小米MiFlash Tool是小米公司开发的一款miFlash刷机工具，这款小米工具允许用户在不同版本中刷入切换包括不限于，MIUI 8、MIUI 9、MIUI 10、MIUI 11、MIUI 12、MIUI 13等进行刷机。任何小米或Redmi手机上的所有旧版本和最新版本的MIUI系统刷机。<br>3 小米miflash工具只能通过Fastboot来输入ROM文件，所以miFlash工具无法刷入卡刷ROM或OTA ROM包。高通rom文件可以在fastboot模式或高通9008（EDL模式）下通过该工具刷机。<br><strong><p class='p red'>（该工具只能对已经解锁BL的小米机型起到作用）</p></strong></p><ol><li>下载并打开miflash线刷工具。</li></ol><a class="btn-beautify button--animated " href="https://miuiver.com/miflash/"   title="下载miflash"><i class="fas fa-download fa-fw"></i><span>下载miflash</span></a>下载完成会得到一个压缩包，解压打开即可<p><img src="/word/18.jpg" alt="这是图片" title="Magic Gardens"></p><ol start="2"><li>第一次运行时，会提醒安装驱动。<br><img src="/word/19.jpg" alt="这是图片" title="Magic Gardens"></li><li>安装驱动时间有点小长，安装完毕后点击“确定”。<br><img src="/word/20.jpg" alt="这是图片" title="Magic Gardens"></li><li>将从小米官网下载的线刷包解压待用。<br><img src="/word/21.jpg" alt="这是图片" title="Magic Gardens"></li><li>点击“选择”，选择刚刚解压的线刷包。<br><img src="/word/22.jpg" alt="这是图片" title="Magic Gardens"></li><li>手机关机，按住音量减键，用数据线连接电脑，进入fastboot模式。<br><img src="/word/23.jpg" alt="这是图片" title="Magic Gardens"></li><li>点击“加载设备”，很快工具中就会出现设备编号。<br><img src="/word/24.jpg" alt="这是图片" title="Magic Gardens"></li><li>点击“刷机”即可，等待3-5分钟，刷机完成后重启设备。</li></ol><span class='p cyan'>如果你觉得文章不错可以点击下方“打赏”按钮请三岁喝杯咖啡~</span>]]></content>
       
       
+      
+        <tags>
+            
+            <tag> 安卓玩机 </tag>
+            
+        </tags>
       
     </entry>
     
@@ -38,6 +50,12 @@
       
       
       
+        <tags>
+            
+            <tag> 安卓玩机 </tag>
+            
+        </tags>
+      
     </entry>
     
     
@@ -50,6 +68,12 @@
         <content type="html"><![CDATA[<h1>如何解除小米BootLoader锁</h1><p>为什么要解锁BL?为什么要Root?解锁后可以刷入第三方ROM包（比如小米刷iQOO的Orange OS操作系统）刷入面具也就是ROOT权限，然后就可以修改系统内容，以及一些实用的模块来优化你的安卓设备，使其实现本身不具备的功能<br>下面开始教程</p><ol><li>进去开发者模式查看解锁状态并绑定账号（账号绑定手机以后等待168小时，千万不要点第二次！否则会重新计时）<br><img src="/word/10.jpg" alt="这是图片" title="Magic Gardens"><br>经过了168小时的等待，就可以用电脑给手机解bl锁了（如果绑定后没有等待168小时可能会出现以下界面，一般显示168我的已经过去了36小时所以是132）<br><img src="/word/17.jpg" alt="这是图片" title="Magic Gardens"></li><li>首先在电脑上打开解锁工具，可以去官网下载</li></ol><a class="btn-beautify button--animated " href="http://www.miui.com/unlock/download.html"   title="直达官网"><i class="fas fa-download fa-fw"></i><span>直达官网</span></a><ol start="3"><li>解压下载的文件，打开解锁工具<br><img src="/word/4.jpg" alt="这是图片" title="Magic Gardens"><br>（miflash_unlock.exe），同意协议，登陆小米账号（必须是自己手机绑定的小米账号）<br>安装驱动（必须安装否则无法识别手机）<br><img src="/word/5.jpg" alt="这是图片" title="Magic Gardens"></li><li>手机关机，然后同时按住“音量下键”和“电源键”进入fastboot模式，用数据线连接电脑</li></ol><p>线刷工具提示“已连接手机”<br>点击“解锁”<br>然后会弹出以下界面<br><img src="/word/7.jpg" alt="这是图片" title="Magic Gardens"><br>点击“确认解锁”<br>然后会弹出以下界面<br><img src="/word/8.jpg" alt="这是图片" title="Magic Gardens"><br>点击“确认解锁”<br>等到进度跑完并弹出以下界面则表示解锁成功<br><img src="/word/9.jpg" alt="这是图片" title="Magic Gardens"><br>5. 此时，手机会重启，并会清楚所有数据，并且解除bl锁成功</p><span class='p cyan'>如果你觉得文章不错可以点击下方“打赏”按钮请三岁喝杯咖啡~</span>]]></content>
       
       
+      
+        <tags>
+            
+            <tag> 安卓玩机 </tag>
+            
+        </tags>
       
     </entry>
     
