@@ -338,9 +338,3 @@ body,
 .gitcalendar {
   font-family: ss !important;
 }
-
-#page-header.nav-fixed #nav {
-    background: rgba(255, 255, 255, 0.75);
-    backdrop-filter: var(--backdrop-filter);
-    z-index: 99999;
-}
