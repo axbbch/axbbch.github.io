@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://axbbch.gitee.io/2023/01/06/lenovo/</loc>
+    
+    <lastmod>2023-01-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://axbbch.gitee.io/Gallery/bz.html</loc>
+    
+    <lastmod>2023-01-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://axbbch.gitee.io/2023/01/05/9008edl/</loc>
     
     <lastmod>2023-01-05</lastmod>
@@ -74,15 +92,6 @@
   </url>
   
   <url>
-    <loc>http://axbbch.gitee.io/Gallery/bz.html</loc>
-    
-    <lastmod>2022-12-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://axbbch.gitee.io/Gallery/index.html</loc>
     
     <lastmod>2022-12-26</lastmod>
@@ -121,7 +130,7 @@
 
   <url>
     <loc>http://axbbch.gitee.io/</loc>
-    <lastmod>2023-01-05</lastmod>
+    <lastmod>2023-01-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -129,14 +138,21 @@
   
   <url>
     <loc>http://axbbch.gitee.io/tags/%E5%AE%89%E5%8D%93%E7%8E%A9%E6%9C%BA/</loc>
-    <lastmod>2023-01-05</lastmod>
+    <lastmod>2023-01-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://axbbch.gitee.io/tags/%E6%95%B0%E7%A0%81%E6%96%B0%E5%93%81/</loc>
+    <lastmod>2023-01-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://axbbch.gitee.io/tags/%E7%94%9F%E6%B4%BB/</loc>
-    <lastmod>2023-01-05</lastmod>
+    <lastmod>2023-01-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -145,14 +161,21 @@
   
   <url>
     <loc>http://axbbch.gitee.io/categories/Android/</loc>
-    <lastmod>2023-01-05</lastmod>
+    <lastmod>2023-01-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://axbbch.gitee.io/categories/%E6%95%B0%E7%A0%81%E6%96%B0%E5%93%81/</loc>
+    <lastmod>2023-01-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://axbbch.gitee.io/categories/%E7%94%9F%E6%B4%BB/</loc>
-    <lastmod>2023-01-05</lastmod>
+    <lastmod>2023-01-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>

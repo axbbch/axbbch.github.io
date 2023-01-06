@@ -375,7 +375,7 @@ body,
   /* 文字强制不换行，防止left:50%导致的文字换行 */
   white-space: nowrap;
   /* 圆角 */
-  border-radius: 10px;
+  border-radius: 20px;
   /* 距离左边50% */
   left: 50%;
   /* 然后再向左边挪动自身的一半，即可实现居中 */
