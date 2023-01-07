@@ -2,7 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://axbbch.gitee.io/2014/12/31/helloword/</loc>
+    <loc>http://axbbch.gitee.io/Gallery/love.html</loc>
+    
+    <lastmod>2023-01-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://axbbch.gitee.io/Gallery/index.html</loc>
     
     <lastmod>2023-01-07</lastmod>
     
@@ -12,6 +21,15 @@
   
   <url>
     <loc>http://axbbch.gitee.io/Gallery/bz.html</loc>
+    
+    <lastmod>2023-01-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://axbbch.gitee.io/2014/12/31/helloword/</loc>
     
     <lastmod>2023-01-07</lastmod>
     
@@ -95,15 +113,6 @@
     <loc>http://axbbch.gitee.io/about/index.html</loc>
     
     <lastmod>2022-12-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://axbbch.gitee.io/Gallery/index.html</loc>
-    
-    <lastmod>2022-12-26</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
